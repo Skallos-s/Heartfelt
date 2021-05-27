@@ -23,6 +23,8 @@ Use Q/E or Page Up/Down to change the time-viewing axis.
 
 When viewing a time axis, the red side is the past, while the green side is the future.
 
+The hourglass shows where you are in time.
+
 Walk into an object to interact with it.
 
 Press enter to advance to the next level or restart when you die.
