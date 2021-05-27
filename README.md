@@ -15,6 +15,20 @@ The sprite sheets should be enough to get the resources, but some sprites were s
 
 The code is clunky, but I could not plan ahead far enough to prevent this.
 
+# Tutorial
+
+Use the WASD or arrow keys to move around.
+
+Use Q/E or Page Up/Down to change the time-viewing axis.
+
+When viewing a time axis, the red side is the past, while the green side is the future.
+
+Walk into an object to interact with it.
+
+Press enter to advance to the next level or restart when you die.
+
+Remember, walking through time consumes your life faster!
+
 # License
 
 This is licensed with the [MIT license](https://choosealicense.com/licenses/mit/).
