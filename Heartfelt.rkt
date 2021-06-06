@@ -429,15 +429,19 @@
    (if
     (menu-help MENU)
     (overlay
-     (text "WASD/Arrow keys to move arround.
-Q/E or Page Up/Down to switch time viewing axis.
-When viewing a time axis, the red side is the past,\nwhile the green side is the future.
-Walk into an object to interact with it.
-Press enter to advance to the next level/restart when you die.
-Remember, walking through time consumes your life faster!
-Press enter to return." 20 'black)
-     (rectangle 540 185 'solid 'lightgray)
-     (rectangle 550 195 'solid 'darkgray))
+     (text "Use the WASD or arrow keys to move around.\n
+Use Q/E or Page Up/Down to change the time-viewing axis.\n
+When viewing a time axis, the red side is the past, while the\ngreen side is the future.\n
+The hourglass shows where you are in time.\n
+Walk into an object to interact with it.\n
+Press enter to advance to the next level or restart when you die.\n
+Remember, walking through time consumes your life faster!\n
+More information: github.com/Skallos-s/Heartfelt\n
+Press enter to return to the main screen." 20 'black)
+     ; This rectangle is the background for the help-text.
+     (rectangle 600 440 'solid 'lightgray)
+     ; This rectange is the border of the background for the help-text.
+     (rectangle 610 450 'solid 'darkgray))
     (overlay
      (above
       (rectangle 1 400 0 'red)
